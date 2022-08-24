@@ -6,7 +6,8 @@ namespace PBranchs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Veiculo veiculo = new Veiculo("Fiat", "500", "Branco", 5,4,100000);
+            Console.WriteLine(veiculo);
         }
     }
 }
